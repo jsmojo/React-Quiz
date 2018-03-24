@@ -7,7 +7,7 @@ function ListItem (props) {
     }
        
     return (
-      <li className={styles.item} onClick={onClickAnswer}>{props.answerItem}</li>
+      <li className={styles.item} onClick={onClickAnswer}>{props.answerItem} <span className={styles.arrow}></span></li>
     )
 }
 

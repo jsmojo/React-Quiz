@@ -14,3 +14,12 @@
     margin: 0;
     padding: 0;
 }
+
+.arrow {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-left: 20px solid blue;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
