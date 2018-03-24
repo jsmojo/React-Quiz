@@ -61,12 +61,6 @@ class App extends React.Component {
     this.resetQuiz = this.resetQuiz.bind(this);
   }
 
-  // componentWillMount() {
-  //   this.setState({
-  //     question: quizQuestions[0].question,
-  //     answerOptions: shuffledAnswerOptions[0]
-  //   });
-  // }
 
   checkAnswer(answer) {
     let correctAnswer = this.state.questionData[this.state.progress].correct;
