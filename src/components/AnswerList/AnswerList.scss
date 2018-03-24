@@ -1,0 +1,16 @@
+@import './../../styles/modules/modules.scss';
+
+.item {
+    cursor: pointer;
+    padding: 1.5rem 2.5rem 1.5rem 0;
+
+    &:hover {
+        font-weight: bold;
+    }
+}
+
+.items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
