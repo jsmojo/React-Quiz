@@ -1,12 +1,14 @@
 @import './../styles/modules/modules.scss';
 
+$border-width: 20px;
+
 .App {
 
     .content {
-        border-top: 20px solid yellow;
-        border-right: 20px solid red;
-        border-bottom: 20px solid blue;
-        border-left: 20px solid orange;
+        border-top: $border-width solid rgb(82, 82, 79);
+        border-right: $border-width solid rgb(74, 73, 73);
+        border-bottom: $border-width solid rgb(90, 90, 92);
+        border-left: $border-width solid rgb(96, 95, 94);
         max-width: 800px;
         margin: 30px auto;
         padding: 20px;
